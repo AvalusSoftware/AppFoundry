@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Error</title>
+</head>
+<body>
+     @if (@Session[MvcApplication.ERROR_MESSAGE_SESSION_VARIABLE] != null)
+     {
+        foreach(string message in (List<string>)@Session[MvcApplication.ERROR_MESSAGE_SESSION_VARIABLE])
+        {
+            <p>@message</p>
+        }
+
+     }
+     else
+     {
+        <p>An error occurred while processing your request. Please restart your browser and login again.</p>
+     }
+</body>
+</html>

@@ -1,0 +1,173 @@
+﻿/*Jquery styles*/
+
+/*fix padding being added by jquery for tab panel header*/
+.ui-tabs .ui-tabs-nav li a {
+    padding: 3px 5px;
+}
+
+/*remove some of the padding added for buttons*/
+.ui-button-text-only .ui-button-text {
+    padding: 1px 1px;
+}
+
+/*fix padding being added by jquery for button*/
+input.ui-button {
+    padding: 0;
+}
+
+/*fix the padding being added by jquery for tab panels*/
+.ui-tabs .ui-tabs-panel {
+    padding: 0;
+}
+
+/*This sets the font size of the date picker dialog*/
+div.ui-datepicker{
+ font-size:12px;
+}
+
+/*This sets the font size of the time picker dialog*/
+div.ui-timepicker{
+ font-size:12px;
+}
+
+/*A style that can be applied to a dialog to remove the close button from title bar*/
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+/*set dialog title bar padding*/
+.ui-dialog .ui-dialog-titlebar
+{
+    padding: 1px 1px;
+}
+
+/*set dialog title padding*/
+.ui-dialog .ui-dialog-title
+{
+    padding: 4px 1px;
+}
+
+/*set dialog content padding*/
+.ui-dialog .ui-dialog-content 
+{
+    padding: 0px 0px;
+}
+
+/*AppFoundry Styles*/
+.apf-Button {
+    
+}
+
+.apf-Canvas {
+    
+}
+
+.apf-CheckBoxControl {
+    
+}
+
+.apf-ComboBoxControl {
+    
+}
+
+.apf-BusinessObjectComboBoxControl {
+    
+}
+
+.apf-DateControl {
+    
+}
+
+.apf-GridColumn {
+    
+}
+
+.apf-BusinessObjectGridColumn {
+    
+}
+
+.apf-GridControl {
+    
+}
+
+.apf-Label {
+    
+}
+
+.apf-Panel {
+    
+}
+
+/*Needed to remove extra padding and header panels on tab control*/
+.apf-TabControl {
+padding: 0px;
+background: none;
+border-width: 0px;
+}
+
+.apf-TabControl .ui-tabs-nav {
+    padding-left: 0px;
+    background: transparent;
+    border-width: 0px 0px 1px 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.apf-TabControl .ui-tabs-panel {
+    border-width: 0px 1px 1px 1px;
+}
+
+.apf-TabPanel {
+}
+
+.apf-TabPanelHeader {
+}
+
+.apf-TabPanelHeaderCloseButton {
+    cursor: pointer;
+}
+
+.apf-TextControl {
+    
+}
+Services@AvalusSoftware.com
+.apf-TimeControl {
+    
+}
+
+.apf-TreeViewControl {
+    
+}
+
+.apf-TreeViewNode {
+    
+}
+
+.apf-ControlHasError {
+    outline: 1px solid rgb(228, 32, 32); /*This works best for checkboxes as well as other controls*/
+}
+
+.apf-ControlIsNotEditable 
+{
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.apf-ButtonControlIsNotEditable 
+{
+    color: rgb(150, 150, 150);
+}
+
+.apf-TreeViewNodePlusMinus {
+    cursor: pointer;
+}
+
+.apf-TreeViewNodeText {
+    cursor: pointer;
+}
+
+.apf-TreeViewNodeActiveNode {
+    background-color: rgb(226, 226, 241);
+}
+

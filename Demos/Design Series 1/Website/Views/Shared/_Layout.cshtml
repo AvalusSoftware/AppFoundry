@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/bundles/styles")
+    @Scripts.Render("~/bundles/scripts")
+    <script type="text/javascript">
+        window.rootUrl = "@Url.Content("~/")";
+        window.onload = function() {
+            APFResetWindowHeight();
+            APFUpdateWindowElementsHeight();
+        };
+        window.onresize = function() {
+            APFUpdateWindowElementsHeight();
+        };
+    </script>
+</head>
+<body>
+<div style="padding-top: 10px; padding-bottom: 10px; padding-left: 15px; padding-right: 15px">
+    @RenderBody()
+</div>
+</body>
+</html>
